@@ -1,0 +1,26 @@
+  .container {
+    max-width: 960px;
+  }
+  main {
+    min-height: calc(100vh - 215px);
+  }
+
+  .cont {
+    overflow: auto;
+    height: 200px;
+  }
+
+#contenedor{
+  text-align: center;
+  background-color: rgba(11, 93, 215, 0.582);
+  color: white;
+}
+#contenedor:hover{
+  background-color: rgba(63, 136, 245, 0.582);
+  text-decoration: line-through;
+}
+#contenedor > li{
+    border: dashed 1px rgba(11, 93, 215, 0.582);
+    color: white;
+
+}
