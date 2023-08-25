@@ -2,6 +2,9 @@
 document.addEventListener("DOMContentLoaded",()=>{
     let inicio = localStorage.getItem("agregoItem");
     var contenedor = document.getElementById("contenedor");
+    console.log("Esta null");
+    inicio = "Primer Tarea";
+    inicio.innerHTML = `<h2>Commit Inicial</h2>`;
     contenedor.innerHTML = `<h2>${inicio}</h2>`;
     const agregar = document.getElementById("agregar");
     agregar.addEventListener("click", ()=> {
@@ -23,4 +26,6 @@ document.addEventListener("DOMContentLoaded",()=>{
         contenedor.textContent = " ";
     
     })
+    
+    
 })
