@@ -15,12 +15,13 @@
   background-color: rgba(11, 93, 215, 0.582);
   color: white;
 }
-#contenedor:hover{
-  background-color: rgba(63, 136, 245, 0.582);
-  text-decoration: line-through;
-}
-#contenedor > li{
+/* #contenedor:hover{
+  
+} */
+#contenedor > li:hover{
     border: dashed 1px rgba(11, 93, 215, 0.582);
     color: white;
+    background-color: rgba(63, 136, 245, 0.582);
+    text-decoration: line-through;
 
 }
